@@ -1,6 +1,6 @@
 #include <iostream>
-
 using namespace std;
+
 int glo = 32;
 void sum()
 {
@@ -15,8 +15,8 @@ int main()
     int glo = 45;
     bool is_true = true;
     sum();
-    cout<<"\nthis is tutorial 3. \n\nHere the value of a is "<<a<<". \nHere the value of b is"<<b;
-    cout<<"\nthe value of pi is "<<pi;
+    cout<<"\nthis is tutorial 3. \n\nHere the value of a is "<<a<<". \nHere the value of b is"<<b<<endl;
+    cout<<"\nthe value of pi is "<<pi<<endl;;
     cout<<"\nthe value of c is "<<c<<endl;
     cout << is_true;
     return 0;
